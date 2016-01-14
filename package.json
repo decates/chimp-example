@@ -1,0 +1,25 @@
+{
+  "name": "chimp-example",
+  "version": "0.0.1",
+  "description": "An example of using chimp to run BDD tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "chimp",
+    "watch": "chimp --watch",
+    "mocha": "chimp --mocha",
+    "mocha-watch": "chimp --mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decates/chimp-example.git"
+  },
+  "author": "Mark de Cates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decates/chimp-example/issues"
+  },
+  "homepage": "https://github.com/decates/chimp-example#readme",
+  "devDependencies": {
+    "chimp": "^0.24.1"
+  }
+}
